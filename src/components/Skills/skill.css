@@ -1,0 +1,56 @@
+#skills{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skillTiitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.skillDesc{
+font-weight: 300;
+font-size: 1rem;
+max-width: 50rem;
+padding: 0 2rem;
+}
+
+.skillBars{
+    margin: 0.3rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.skillBar{
+    display: flex;
+    margin: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    background: rgb(66, 65, 65);
+    
+}
+
+.skillBarImg{
+    object-fit: cover;
+    height: 4rem;
+    width: 5rem;
+    margin-right: 2rem;
+}
+
+.skillBarText{
+    font-size: 1rem;
+    font-weight: 200;
+    
+
+}
+
