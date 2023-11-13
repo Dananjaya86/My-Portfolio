@@ -14,7 +14,7 @@ const skill = () => {
                 <img src={UIDesign} alt="UIDesign" className='skillBarImg'/>
                 <div className='skillBarText'> 
                 <h2>UI/UX Design</h2>
-                <p>khjhsdv hjlbhbh jkblhb</p>
+                <p>I am design my all projects consider with UI/UX</p>
                     </div>
 
             </div>
@@ -24,7 +24,7 @@ const skill = () => {
                 <img src={WebDesign} alt="WebDesign" className='skillBarImg'/>
                 <div className='skillBarText'> 
                 <h2>Web design</h2>
-                <p>fgnfn fnfn  tjrj</p>
+                <p>I am ready to design any kind of web as your wish</p>
                     </div>
 
             </div>
@@ -36,6 +36,17 @@ const skill = () => {
                 <div className='skillBarText'> 
                 <h2> App Design</h2>
                 <p>ffsrth dfjdj rtdtj ss</p>
+                    </div>
+
+            </div>
+        </div>
+
+        <div className='skillBars'>
+            <div className='skillBar'>
+                <img src={WebDesign} alt="WebDesign" className='skillBarImg'/>
+                <div className='skillBarText'> 
+                <h2>3D Amination</h2>
+                <p>I am ready to design any kind of 3D animation and Sculping as your wish</p>
                     </div>
 
             </div>

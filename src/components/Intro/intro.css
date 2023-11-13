@@ -31,6 +31,8 @@
 
 }
 
+
+
 .hello{
     font-size: 1.75rem;
     font-weight: 100;
@@ -38,6 +40,9 @@
 
 .introName{
 color: rgb(21, 223, 81);
+animation-name:example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 .intropara{
@@ -75,3 +80,9 @@ color: rgb(21, 223, 81);
     
     
 }
+
+@keyframes example {
+    0% {color: rgb(21,223,81);}
+    25% {color: rgb(236, 236, 78);}
+    50% {color: rgb(187, 74, 54);}
+    75% {color: rgb(101, 219, 101);}}

@@ -26,10 +26,10 @@ const Contact = () => {
 <h2 className='contactpageTitle'>Please contact Me</h2>
 <span className='contactdesc'> sjkjhg hjvhgvhg gvhgvhg jhgdtyhk jgdfhjh gytgkn</span>
 <form className='contactform' ref={form} onSubmit={sendEmail}>
-    <input type='text' className='name' placeholder='Your Name' name='your_name'></input>
-    <input type='text' className='email' placeholder='Your Email' name='your_email'></input>
-    <textarea  className='msg' name='messagr' rows="5" placeholder='Your Message'></textarea>
-    <button type='submit' value='send' className='submitbtn'> Submit</button>
+    <input type='text' className='name' placeholder='Your Name' name="your_name"></input>
+    <input type='text' className='email' placeholder='Your Email' name="your_email"></input>
+    <textarea  className='msg' name='messagr' rows="5" placeholder="your Message"></textarea>
+    <button type="submit" value="Send" className='submitbtn'> Submit</button>
     <div className='links'>
         <img src={FacebookIcon} alt='facebook' className='link' ></img>
         <img src={GithubIcon} alt='github' className='link'></img>
