@@ -1,6 +1,6 @@
 import React from 'react';
 import'./intro.css';
-import bg from '../../assets/IMG_20210901_100531.jpg'
+import bg from '../../assets/myself.png'
 import { Link } from 'react-scroll';
 
 const Intro = () => {
@@ -8,7 +8,7 @@ const Intro = () => {
     <section id="intro">
 <div className="introContent">
 <span className="hello">Hello</span>
-<span className="introText"> I am <span className="introName">Dananjaya Dasanayake</span><br/> Front End Desiger </span> 
+<span className="introText"> I am <span className="introName">Dananjaya Dasanayake</span><br/> Front End Desinger </span> 
 <p className="intropara">I am a dedicated and innovative front-end designer with a passion for creating <br/>visually appealing and user-friendly digital experiences. 
 With a strong foundation <br/>in web development and design principles, I bring a unique blend of technical expertise <br/> and creative flair to every project.
 My journey in the field of front-end design has equipped <br/> me with a deep understanding of HTML, CSS, and JavaScript, enabling me to transform <br/> concepts 
