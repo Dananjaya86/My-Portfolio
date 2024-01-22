@@ -1,0 +1,13 @@
+.skillTiitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.skillBars{
+    margin: 0.3rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
