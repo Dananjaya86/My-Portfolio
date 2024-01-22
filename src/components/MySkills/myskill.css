@@ -1,3 +1,15 @@
+#myskills{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .skillTiitle{
     font-size: 3rem;
     font-weight: 600;
