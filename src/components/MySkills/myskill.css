@@ -3,11 +3,12 @@
     font-weight: 600;
     padding-top: 3rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .skillBars{
     margin: 0.3rem;
-    width: 100vw;
+    width: 90vw;
     max-width: 80%;
     text-align: left;
 }
