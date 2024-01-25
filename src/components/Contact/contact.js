@@ -6,6 +6,12 @@ import LinkInIcon from '../../assets/linkin.png';
 import TwiterIcon from '../../assets/twiter.png';
 import emailjs from '@emailjs/browser';
 
+const Facebook = 'https://www.facebook.com/daham.dasanayake';
+const Github = 'https://github.com/Dananjaya86';
+const Linkin = 'https://www.linkedin.com/in/dananjaya-daham-dasanayaka-66317ab6/';
+const Twiter = 'https://twitter.com/DananjayaDu';
+
+
 const Contact = () => {
   const form = useRef();
 
@@ -31,10 +37,15 @@ const Contact = () => {
     <textarea  className='msg' name='messagr' rows="5" placeholder="your Message"></textarea>
     <button type="submit" value="Send" className='submitbtn'> Submit</button>
     <div className='links'>
-        <img src={FacebookIcon} alt='facebook' className='link' ></img>
-        <img src={GithubIcon} alt='github' className='link'></img>
-        <img src={LinkInIcon} alt='linkin' className='link'></img>
-        <img src={TwiterIcon} alt='twiter' className='link'></img>
+    
+    <a href={Facebook} target="_blank" rel="noopener noreferrer">
+        <img src={FacebookIcon} alt='facebook' className='link'></img> </a>
+        <a href={Github} target="_blank" rel="noopener noreferrer">
+        <img src={GithubIcon} alt='github'  className='link'></img></a>
+        <a href={Linkin} target="_blank" rel="noopener noreferrer">
+        <img src={LinkInIcon} alt='linkin' className='link'></img></a>
+        <a href={Twiter} target="_blank" rel="noopener noreferrer">
+        <img src={TwiterIcon} alt='twiter' className='link'></img></a>
     </div>
 </form>
         </div>
